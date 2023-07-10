@@ -6,13 +6,16 @@ reverse array and assign to variable
 test variables against each other
 */
 
-let input = ""
+let input = prompt("Gimme summa dat text...")
 let reversedInput = ""
 
-prompt ("Gimme summa dat text...")
-
+console.log(input);
 
 //test variables again each other
-function isPalindrome() {
-    
-}
+/* function isPalindrome() {
+    if (input === reversedInput) {
+        alert ("Dat text is a palindrome.")
+    } else {
+        alert ("Dat text is not a palindrome.")
+    }
+} */
