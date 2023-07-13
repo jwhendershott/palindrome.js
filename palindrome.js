@@ -8,8 +8,10 @@ test variables against each other
 
 let input = prompt("Gimme summa dat text...")
 let reversedInput = ""
+let inputString = input.split("");
 
 console.log(input);
+console.log(inputString);
 
 //test variables again each other
 /* function isPalindrome() {
